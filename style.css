@@ -224,7 +224,7 @@ ul li a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("/images/light-grey-curve-bg.png");
+  background-image: url("images/light-grey-curve-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,3 +452,9 @@ img.left {
   -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
