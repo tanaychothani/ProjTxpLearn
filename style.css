@@ -207,7 +207,7 @@ ul li a:hover {
   font-weight: 100;
   padding-top: 30px;
   padding-bottom: 15px;
-  margin: 0;
+  margin: auto;
   box-sizing: border-box;
   font-size: 12pt;
   line-height: 1.7em;
@@ -230,6 +230,12 @@ ul li a:hover {
   background-size: cover;
   margin: 0;
 }
+
+#newslettersCarousel{
+  align-items: center;
+  width: 70%;
+}
+
 
 /* Need to work on NL Card debugging */
 .nl-card {
@@ -457,4 +463,44 @@ img.left {
 .carousel-control-prev {
     filter: invert(100%);
 }
+
+#Ideasection{
+  background-image: url("images/light-grey-curve-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gap{
+  height: 60vh
+}
+
+#ideas{
+  text-align: center;
+  margin: 20px auto 80px;
+}
+
+#shareIdeasButton{
+  background-color: rgb(0,0,255,0.33);
+  text-decoration: none;
+  border-style: none;
+  border-radius: 50%;
+  padding: 20px;
+  width: 300px;
+  margin: 100px;
+}
+
+#shareIdeasLink{
+  text-align: center;
+  text-decoration: none;
+  color: #141223;
+  font-family: cursive;
+}
+
+#shareIdeasTitle{
+  font-weight: bold;
+  color: rgb(0,100,255);
+  font-family: cursive;
+}
+
 
