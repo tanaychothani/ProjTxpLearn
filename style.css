@@ -508,7 +508,6 @@ img.left {
 
 #mailchimpEmbed{
   width: 60%;
-  margin: auto;
-  
+  margin: 200px auto 250px; 
 }
 
