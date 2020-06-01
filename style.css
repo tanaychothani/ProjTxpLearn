@@ -469,6 +469,7 @@ img.left {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f1f4f9;
 }
 
 #gap{
@@ -476,8 +477,7 @@ img.left {
 }
 
 #ideas{
-  text-align: center;
-  margin: 20px auto 80px;
+  text-align: center; 
 }
 
 #shareIdeasButton{
@@ -488,6 +488,7 @@ img.left {
   padding: 20px;
   width: 300px;
   margin: 100px;
+  margin-bottom: 250px;
 }
 
 #shareIdeasLink{
