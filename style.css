@@ -461,7 +461,7 @@ img.left {
 
 .carousel-control-next,
 .carousel-control-prev,
-li {
+.carInd {
     filter: invert(100%);
 }
 
