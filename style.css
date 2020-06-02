@@ -460,7 +460,8 @@ img.left {
 }
 
 .carousel-control-next,
-.carousel-control-prev {
+.carousel-control-prev,
+li {
     filter: invert(100%);
 }
 
